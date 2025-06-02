@@ -1,41 +1,47 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head><title>Form Península</title></head><body>
-<form name="Península" action="procesar.php" method="post">
-  <h2>Formulario de Opinión: La Península de Yucatán</h2>
-  <label for="nombre">Nombre completo:</label><br>
-  <input id="nombre" name="nombre" required="" type="text"><br>
-  <br>
-  <label for="correo">Correo electrónico:</label><br>
-  <input id="correo" name="correo" required="" type="email"><br>
-  <br>
-  <label for="estado">¿Qué estado de la península conoces o has
+<html>
+<head>
+<title>Form PenÃ­nsula</title>
+</head>
+<body>
+<form style="font-family: Arial;" name="PenÃ­nsula" action="procesar.php"
+method="post">
+<h2 style="font-family: Arial Black;">Formulario de OpiniÃ³n: La
+PenÃ­nsula de YucatÃ¡n</h2>
+<label for="nombre">Nombre completo:</label><br>
+<input id="nombre" name="nombre" required="" type="text"><br>
+<br>
+<label for="correo">Correo electrÃ³nico:</label><br>
+<input id="correo" name="correo" required="" type="email"><br>
+<br>
+<label for="estado">Â¿QuÃ© estado de la penÃ­nsula conoces o has
 visitado?</label><br>
-  <select id="estado" name="estado">
-  <option value="Yucatán">Yucatán</option>
-  <option value="Campeche">Campeche</option>
-  <option value="Quintana Roo">Quintana Roo</option>
-  <option value="ninguno">Ninguno</option>
-  </select>
-  <br>
-  <br>
-  <label>¿Qué te parece más interesante?</label><br>
-  <input name="interes[]" value="cenotes" type="checkbox"> Cenotes<br>
-  <input name="interes[]" value="ruinas" type="checkbox"> Zonas
-arqueológicas (Chichén Itzá, Uxmal, etc.)<br>
-  <input name="interes[]" value="playas" type="checkbox"> Playas<br>
-  <input name="interes[]" value="cultura" type="checkbox"> Cultura y
+<select id="estado" name="estado">
+<option value="YucatÃ¡n">YucatÃ¡n</option>
+<option value="Campeche">Campeche</option>
+<option value="Quintana Roo">Quintana Roo</option>
+<option value="ninguno">Ninguno</option>
+</select>
+<br>
+<br>
+<label>Â¿QuÃ© te parece mÃ¡s interesante?</label><br>
+<input name="interes[]" value="cenotes" type="checkbox"> Cenotes<br>
+<input name="interes[]" value="ruinas" type="checkbox"> Zonas
+arqueolÃ³gicas (ChichÃ©n ItzÃ¡, Uxmal, etc.)<br>
+<input name="interes[]" value="playas" type="checkbox"> Playas<br>
+<input name="interes[]" value="cultura" type="checkbox"> Cultura y
 tradiciones<br>
-  <input name="interes[]" value="comida" type="checkbox"> Comida típica<br>
-  <br>
-  <label>¿Recomendarías visitar la península?</label><br>
-  <input name="recomienda" value="sí" required="" type="radio"> Sí<br>
-  <input name="recomienda" value="no" type="radio"> No<br>
-  <br>
-  <label for="comentarios">Comentarios adicionales:</label><br>
-  <textarea id="comentarios" name="comentarios" rows="5" cols="40"></textarea><br>
-  <br>
-</form><a href="respuesta%20form.html">
-
-
-Enviar Formulario</a>
-</body></html>
+<input name="interes[]" value="comida" type="checkbox"> Comida tÃ­pica<br>
+<br>
+<label>Â¿RecomendarÃ­as visitar la penÃ­nsula?</label><br>
+<input name="recomienda" value="sÃ­" required="" type="radio"> SÃ­<br>
+<input name="recomienda" value="no" type="radio"> No<br>
+<br>
+<label for="comentarios">Comentarios adicionales:</label><br>
+<textarea id="comentarios" name="comentarios" rows="5" cols="40"></textarea><br>
+<br>
+</form>
+<a style="font-family: Arial;" href="respuesta%20form.html">Enviar
+Formulario</a>
+</body>
+</html>
